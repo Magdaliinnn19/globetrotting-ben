@@ -1,0 +1,303 @@
+body {
+    font-size: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    
+    gap: 30px;
+}
+
+
+.header>div>img{
+    padding: 20px 96px 20px 0px;
+}
+
+nav {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav>ul{
+    gap: 32px;
+}
+
+.nav-links:hover {
+    color: #007BB8;
+}
+
+li>a.nav-links{
+    font-family: 'Open Sans',Serif;
+    color: #000;
+    display: flex;
+    
+}
+
+.banner{
+    background: url(../img/tours-banner.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+}
+.content{
+    margin-left: 35px;
+    margin-top: 78px;
+    margin-bottom: 78px;
+}
+.content h2{
+    font-family: "Domine", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FCC200;
+    font-size: 60px;
+}
+.content p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 582px;
+    text-align: left;
+}
+
+
+h4 {
+    font-family: "Domine", serif;
+    font-weight: 700;
+    color: #1034A6;
+    font-size: 21px;
+}
+
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #111827;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Domine", sans-serif;
+    color: #007BB8;
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 1px;
+    margin-top: 49px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.offer {
+    text-align: center;
+}
+
+.tour{
+    background-color: #F3F4F6;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #949494;
+    padding: 18px;
+    width: 436px;
+    margin-bottom: 30px;
+}
+
+.tour h4 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.tour p {
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.date {
+    font-style: italic;
+}
+
+.learn {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1034A6;
+    align-items: center;
+    height: 300px;
+}
+
+
+footer>h2 {
+    font-size: 31px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Domine", serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 48px;
+    margin-bottom: 17px;
+}
+
+.line1 a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Open Sans", serif;
+    text-align: center;
+    gap: 18px;
+    margin-left: 198px;
+}
+
+.line2 a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Open Sans", serif;
+    text-align: center;
+    gap: 18px;
+    margin-left: 298px;
+}
+
+.line2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 24px;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans", serif;
+    text-align: center;
+}
+
+.copyright {
+    padding-bottom: 48px;
+    padding-top: 24px;
+}
+
+
+
+
+/* Checkout */
+
+.banner1{
+    background: url(../img/checkout-banner.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+}
+
+.content1{
+    margin-left: 36px;
+    margin-top: 123px;
+    margin-bottom: 60px;
+}
+.content1 h2{
+    font-family: "Domine", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FCC200;
+    font-size: 60px;
+}
+.content1 p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 582px;
+    text-align: left;
+}
+
+.date1 {
+    text-align: left;
+}
+
+table {
+    margin-top: 12px;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid #007BB8;
+}
+
+td, th {
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.payment {
+    margin-left: 30px;
+    width: 300px;
+}
+
+.address, .information {
+    margin-bottom: 48px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+}
+
+fieldset {
+    border: none;
+}
+
+.required {
+    color: red;
+}
+
+.home, .contact, .card {
+    display: flex;
+}
+
+.input-box, .name, .city, .tel, .code, .credit{
+    margin-bottom: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #111827;
+    font-weight: 500;  
+} 
+
+.name input, .credit input {
+    width: 630px;
+}
+
+.input-box input, .card input, .code input, .city input, .tel input {
+    width: 296px;
+}
+
+.city, .tel, .code {
+    margin-left: 30px;
+} 
+
+.button {
+    width: 630px;
+    color: #111827;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.submit {
+    background-color: #FCC200;
+    color: #111827;
+    width: 630px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .submit:hover {
+    background-color: #fff157;
+  }
